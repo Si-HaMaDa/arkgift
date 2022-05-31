@@ -8,84 +8,84 @@
 
 //Special gifts for US & CA 
 $s_gifts = array(
-	'5'  => 'S-Pink',
-	'20' => 'S-Green',
-	'50' => 'S-Yellow',
-	'10' => 'S-Orange',
-	'15' => 'S-Blue'
+    '5'  => 'S-Pink',
+    '20' => 'S-Green',
+    '50' => 'S-Yellow',
+    '10' => 'S-Orange',
+    '15' => 'S-Blue'
 );
 
 $s_texts = array(
-	array("
+    array("
 		mail title1
-		","
+		", "
 		messageText1
-		",1),
+		", 1),
 
-	array("
+    array("
 		mail title2
-		","
+		", "
 		messageText2
-		",2),
+		", 2),
 
-	array("
+    array("
 		mail title3
-		","
+		", "
 		messageText3
-		",3),
+		", 3),
 
-	array("
+    array("
 		mail title4
-		","
+		", "
 		messageText4
-		",4),
+		", 4),
 
-	array("
+    array("
 		mail title5
-		","
+		", "
 		messageText5
-		",5)
+		", 5)
 );
 
 //Ordinary gifts for all vistiors
 $o_gifts = array(
-	'5'  => 'Pink',
-	'20' => 'Green',
-	'50' => 'Yellow',
-	'10' => 'Orange',
-	'15' => 'Blue'
+    '5'  => 'Pink',
+    '20' => 'Green',
+    '50' => 'Yellow',
+    '10' => 'Orange',
+    '15' => 'Blue'
 );
 
 $o_texts = array(
-	array("
+    array("
 		mail title
-		","
+		", "
 		messageText
-		",1),
+		", 1),
 
-	array("
+    array("
 		mail title
-		","
+		", "
 		messageText
-		",2),
+		", 2),
 
-	array("
+    array("
 		mail title
-		","
+		", "
 		messageText
-		",3),
+		", 3),
 
-	array("
+    array("
 		mail title
-		","
+		", "
 		messageText
-		",4),
+		", 4),
 
-	array("
+    array("
 		mail title
-		","
+		", "
 		messageText
-		",5)
+		", 5)
 );
 
 $giftslist = array();
@@ -95,10 +95,10 @@ $giftslist = array();
 // 	}
 // }
 
-$thnum = mt_rand(0,99);
+$thnum = mt_rand(0, 99);
 
 $texts = array(
-	'ip' => '
+    'ip' => '
 		<div class="popup">
 			<a class="close" href="#" onclick="reload();">&times;</a>
 			<h2><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Oops!</h2>
@@ -109,7 +109,7 @@ $texts = array(
 			</div>
 		</div>
 	',
-	'email' => '
+    'email' => '
 		<div class="popup">
 			<a class="close" href="#" onclick="reload();">&times;</a>
 			<h2><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Oops!</h2>
@@ -120,7 +120,7 @@ $texts = array(
 			</div>
 		</div>
 	',
-	'repet' => '
+    'repet' => '
 				<div class="popup">
 					<a class="close" href="#" onclick="reload();">&times;</a>
 					<h2><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Good!</h2>
@@ -129,7 +129,7 @@ $texts = array(
 						<br>
 						<span>Your prize was
 			',
-	's-c' => '
+    's-c' => '
 				<div class="popup">
 					<a class="close" href="#" onclick="reload();">&times;</a>
 					<h2><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Sorry!</h2>
@@ -140,7 +140,7 @@ $texts = array(
 					</div>
 				</div>
 			',
-	'gotgift' => '
+    'gotgift' => '
 			<div class="popup">
 				<a class="close" href="#" onclick="reload();">&times;</a>
 				<h2><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Great!</h2>
@@ -149,10 +149,10 @@ $texts = array(
 					<br>
 					<span>You won a "
 		',
-		'mailtitle' => '
+    'mailtitle' => '
 			You Won a Gift
 		',
-		'mailmessage' => '
+    'mailmessage' => '
 			You reseved this message because you won a gift from Noah\'s Gift Shop
-			');
-?>
+			'
+);

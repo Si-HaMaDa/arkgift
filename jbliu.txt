@@ -1,0 +1,22 @@
+Database name :	db644659566
+Host name :	db644659566.db.1and1.com
+Port :	3306
+User name :	dbo644659566
+Description :	arkgifts
+Version :	MySQL5.5
+Status :	setup started
+The database setup takes about 5 minutes. You can see the current setup status in the database overview.
+	Go To Overview
+
+
+481575769
+Jollyroger5000
+
+
+adminadmin
+admin1000
+
+noah@noahsgiftshop.com
+
+mymon1005@walla.com
+
